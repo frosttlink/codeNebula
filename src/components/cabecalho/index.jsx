@@ -6,9 +6,9 @@ export default function Cabecalho() {
       <img src="/assets/images/logo.svg" alt="" />
       <div>
         <nav>
-          <p></p>
-          <p></p>
-          <p></p>
+          <p>Projetos</p>
+          <p>Fale Conosco</p>
+          <p>Serviços</p>
         </nav>
       </div>
     </div>

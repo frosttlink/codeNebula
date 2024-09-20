@@ -1,6 +1,31 @@
 .pagina-home {
   h1 {
     font-family: ClashDisplay-SemiBold;
-    color: #302E52;
+    color: #302e52;
+    font-size: 75px;
   }
+
+  .prop-tex {
+    font: 700 15px Roboto;
+  }
+
+  .propaganda {
+    display: flex;
+    flex-direction: column;
+    max-width: 620px;
+    margin-left: 130px;
+
+    align-items: left;
+    justify-content: center;
+  }
+
+  .primeira {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      margin-right: 130px;
+    }
+  }
+
 }
