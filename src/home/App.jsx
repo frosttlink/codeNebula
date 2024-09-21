@@ -15,7 +15,7 @@ export default function App() {
         </div>
         <img src="/assets/images/hexagon.svg" alt="" />
       </section>
-        <img className='line' src="/assets/images/line_one.svg" alt="" />
+        <img src="/assets/images/line_one.svg" alt="" />
     </div>
   );
 }

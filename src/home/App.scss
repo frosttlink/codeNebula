@@ -1,4 +1,7 @@
 .pagina-home {
+
+  overflow-x: hidden;
+
   h1 {
     font-family: ClashDisplay-SemiBold;
     color: #302e52;
@@ -25,7 +28,7 @@
 
     img {
       margin-right: 130px;
-    }
+    } 
   }
 
 }
