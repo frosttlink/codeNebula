@@ -1,7 +1,10 @@
 .pagina-home {
-
   overflow-x: hidden;
 
+  .link-cards-geral {
+    color: #fff;
+    text-decoration: none;
+  }
 
   .primeira {
     display: flex;
@@ -14,8 +17,10 @@
     }
 
     .line {
-      margin-top: -100px;
-      transform: rotateX(180deg)
+      margin-top: -190px;
+      transform: rotateX(180deg);
+      width: 130%;
+      margin-left: -10px;
     }
 
     h1 {
@@ -40,7 +45,6 @@
   }
 
   .segunda {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,10 +53,10 @@
     margin-top: 100px;
 
     h1 {
-      color: #302E52;
+      color: #302e52;
       font-family: ClashDisplay-SemiBold;
       font-size: 45px;
-      margin-bottom: 25px
+      margin-bottom: 25px;
     }
 
     p {
@@ -74,19 +78,23 @@
       margin-bottom: 30px;
 
       .card {
-
         display: flex;
         flex-direction: column;
         gap: 10px;
 
-        color: #E6E4EF;
-        background-color: #302E52;
+        color: #e6e4ef;
+        background-color: #302e52;
         border-radius: 8px;
 
         height: 415px;
         width: 400px;
 
         padding: 50px 30px;
+        transition-duration: 0.4s;
+
+        &:hover {
+          transform: scale(1.05);
+        }
 
         h3 {
           font-family: ClashDisplay-SemiBold;
@@ -94,7 +102,8 @@
         }
 
         .icon-laptop {
-          background-color: #4C4984;
+          background-color: #4c4984;
+          color: #e6e4ef;
 
           padding: 15px;
           width: 70px;
@@ -110,19 +119,25 @@
       border-style: none;
       border-radius: 8px;
 
-      background-color: #4C4984;
+      background-color: #4c4984;
       color: #fff;
       font-family: ClashDisplay-SemiBold;
       font-size: 18px;
 
       padding: 15px 80px;
       cursor: pointer;
+      transition-duration: 0.4s;
+
+      &:hover {
+        background-color: #6b699d;
+        transform: scale(1.05);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
     }
 
     .line {
       margin-top: 100px;
     }
-
   }
 
   .terceira {
@@ -134,10 +149,10 @@
     margin-top: -200px;
     margin-bottom: 55px;
     h1 {
-      color: #302E52;
+      color: #302e52;
       font-family: ClashDisplay-SemiBold;
       font-size: 45px;
-      margin-bottom: 25px
+      margin-bottom: 25px;
     }
 
     p {
@@ -159,19 +174,23 @@
       margin-bottom: 30px;
 
       .card {
-
         display: flex;
         flex-direction: column;
         gap: 10px;
 
-        color: #E6E4EF;
-        background-color: #302E52;
+        color: #e6e4ef;
+        background-color: #302e52;
         border-radius: 8px;
 
         height: 655px;
         width: 600px;
 
         padding: 50px 30px;
+        transition-duration: 0.4s;
+
+        &:hover {
+          transform: scale(1.05);
+        }
 
         h3 {
           font-family: ClashDisplay-SemiBold;
@@ -179,7 +198,8 @@
         }
 
         .icon-laptop {
-          background-color: #4C4984;
+          background-color: #4c4984;
+          color: #e6e4ef;
 
           padding: 15px;
           width: 70px;
@@ -193,27 +213,32 @@
           width: 100%;
           height: 300px;
 
-          background-color: #57548C;
+          background-color: #57548c;
           border-radius: 8px;
         }
 
         button {
           border-style: none;
           border-radius: 8px;
-    
-          background-color: #4C4984;
+
+          background-color: #4c4984;
           color: #fff;
           font-family: ClashDisplay-SemiBold;
           font-size: 14px;
-    
+
           padding: 10px 40px;
           margin-top: 30px;
           width: 200px;
           cursor: pointer;
+          transition-duration: 0.4s;
+
+          &:hover {
+            background-color: #6b699d;
+            transform: scale(1.05);
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          }
         }
       }
     }
   }
-
-
 }
