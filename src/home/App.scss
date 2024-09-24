@@ -2,33 +2,218 @@
 
   overflow-x: hidden;
 
-  h1 {
-    font-family: ClashDisplay-SemiBold;
-    color: #302e52;
-    font-size: 75px;
-  }
-
-  .prop-tex {
-    font: 700 15px Roboto;
-  }
-
-  .propaganda {
-    display: flex;
-    flex-direction: column;
-    max-width: 620px;
-    margin-left: 130px;
-
-    align-items: left;
-    justify-content: center;
-  }
 
   .primeira {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 
-    img {
-      margin-right: 130px;
-    } 
+    .intro {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .line {
+      margin-top: -100px;
+      transform: rotateX(180deg)
+    }
+
+    h1 {
+      font-family: ClashDisplay-SemiBold;
+      color: #302e52;
+      font-size: 75px;
+    }
+
+    .prop-tex {
+      font: 700 15px Roboto;
+    }
+
+    .propaganda {
+      display: flex;
+      flex-direction: column;
+      max-width: 620px;
+      margin-left: 130px;
+
+      align-items: left;
+      justify-content: center;
+    }
   }
+
+  .segunda {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 100px;
+
+    h1 {
+      color: #302E52;
+      font-family: ClashDisplay-SemiBold;
+      font-size: 45px;
+      margin-bottom: 25px
+    }
+
+    p {
+      font-family: Roboto;
+      font-weight: 700;
+    }
+
+    .into {
+      max-width: 700px;
+      text-align: center;
+      margin-bottom: 80px;
+    }
+
+    .cards {
+      display: flex;
+      flex-direction: row;
+      gap: 45px;
+
+      margin-bottom: 30px;
+
+      .card {
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        color: #E6E4EF;
+        background-color: #302E52;
+        border-radius: 8px;
+
+        height: 415px;
+        width: 400px;
+
+        padding: 50px 30px;
+
+        h3 {
+          font-family: ClashDisplay-SemiBold;
+          font-size: 25px;
+        }
+
+        .icon-laptop {
+          background-color: #4C4984;
+
+          padding: 15px;
+          width: 70px;
+          height: 70px;
+          margin-bottom: 20px;
+
+          border-radius: 12px;
+        }
+      }
+    }
+
+    button {
+      border-style: none;
+      border-radius: 8px;
+
+      background-color: #4C4984;
+      color: #fff;
+      font-family: ClashDisplay-SemiBold;
+      font-size: 18px;
+
+      padding: 15px 80px;
+      cursor: pointer;
+    }
+
+    .line {
+      margin-top: 100px;
+    }
+
+  }
+
+  .terceira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: -200px;
+    margin-bottom: 55px;
+    h1 {
+      color: #302E52;
+      font-family: ClashDisplay-SemiBold;
+      font-size: 45px;
+      margin-bottom: 25px
+    }
+
+    p {
+      font-family: Roboto;
+      font-weight: 700;
+    }
+
+    .into {
+      max-width: 700px;
+      text-align: center;
+      margin-bottom: 80px;
+    }
+
+    .cards {
+      display: flex;
+      flex-direction: row;
+      gap: 45px;
+
+      margin-bottom: 30px;
+
+      .card {
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        color: #E6E4EF;
+        background-color: #302E52;
+        border-radius: 8px;
+
+        height: 655px;
+        width: 600px;
+
+        padding: 50px 30px;
+
+        h3 {
+          font-family: ClashDisplay-SemiBold;
+          font-size: 25px;
+        }
+
+        .icon-laptop {
+          background-color: #4C4984;
+
+          padding: 15px;
+          width: 70px;
+          height: 70px;
+          margin-bottom: 20px;
+
+          border-radius: 12px;
+        }
+
+        .square {
+          width: 100%;
+          height: 300px;
+
+          background-color: #57548C;
+          border-radius: 8px;
+        }
+
+        button {
+          border-style: none;
+          border-radius: 8px;
+    
+          background-color: #4C4984;
+          color: #fff;
+          font-family: ClashDisplay-SemiBold;
+          font-size: 14px;
+    
+          padding: 10px 40px;
+          margin-top: 30px;
+          width: 200px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
 
 }

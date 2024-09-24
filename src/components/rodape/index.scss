@@ -1,0 +1,19 @@
+.comp-rodape {
+  background-color: #565294;
+  font-family: Roboto;  
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content:  center;
+  flex-direction: column;
+  padding: 65px 40px;
+
+  .icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px; 
+  }
+
+
+}
